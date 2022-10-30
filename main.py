@@ -44,8 +44,6 @@ ax.yaxis.set_major_formatter(mtick.PercentFormatter(decimals=0))
 ax.xaxis.set_major_formatter(mtick.PercentFormatter(decimals=0))
 
 ax.grid()
-#1200px X 675px
-#ax.rcParams["figure.figsize"] = (16, 9)
 ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.05),
            fancybox=False, shadow=False, ncol=4)
 plt.title('Apuração comparada entre turnos')
