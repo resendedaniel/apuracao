@@ -38,7 +38,7 @@ ax.set_xlabel('Urnas apuradas')
 ax.set_ylabel('Votação dos candidatos')
 
 ax.set_xticks([0, 25, 50, 75, 100])
-ax.set_yticks([40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60])
+ax.set_yticks([40, 42, 44, 46, 48, 50, 52, 54, 56])
 
 ax.yaxis.set_major_formatter(mtick.PercentFormatter(decimals=0))
 ax.xaxis.set_major_formatter(mtick.PercentFormatter(decimals=0))
